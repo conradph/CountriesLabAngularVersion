@@ -1,0 +1,13 @@
+.countryDisplay{
+    border: 3px solid black;
+    border-radius: 10px;
+}
+img{
+    height: 500px; 
+    width: 250px; 
+    object-fit: contain;
+}
+.flexDisplay{
+    display: flex;
+    justify-content: space-evenly;
+}

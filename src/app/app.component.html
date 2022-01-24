@@ -1,0 +1,11 @@
+<div class="flexDisplay">
+  <div class="countryDisplay" *ngFor="let c of countries">
+    <div [style.background-color]="c.colors[1]" [style.color]="c.colors[0]">
+      <p>Name: {{c.name}}</p>
+      <p>Official Language: {{c.lang}}</p>
+      <p>Current President: {{c.president}}</p>
+      <p>Official Flag:</p>
+      <img src="{{c.flagURL}}" />
+    </div>
+  </div>
+</div>
